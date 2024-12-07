@@ -9,20 +9,17 @@ const Resume = () => {
         Education: [
 
             {
-                degree: "Bachelor of Science, Computer ScienceBachelor of Science, Computer ScienceBachelor of Science, Computer ScienceBachelor of Science, Computer ScienceBachelor of Science, Computer ScienceBachelor of Science, Computer ScienceBachelor of Science, Computer ScienceBachelor of Science, Computer Science",
-                institution: "University of California, Berkeley",
-                year: "2012 - 2016"
+                degree: "Matric pass",
+                institution: "Govt Boys High School Balgatar, Balochistan",
+                year: "2012 - 2023"
             },
             {
-                degree: "Master of Science, Computer ScienceMaster of Science, Computer ScienceMaster of Science, Computer ScienceMaster of Science, Computer ScienceMaster of Science, Computer ScienceMaster of Science, Computer ScienceMaster of Science, Computer Science",
-                institution: "Stanford University",
-                year: "2017 - 2021"
+                degree: "2nd Year pre-medical",
+                institution: "Dgree College Hoshab, Balochistan",
+                year: "2024 still learning"
             },
-            {
-                degree: "Ph.D. in Computer SciencePh.D. in Computer SciencePh.D. in Computer SciencePh.D. in Computer SciencePh.D. in Computer SciencePh.D. in Computer Science",
-                institution: "Stanford University",
-                year: "2022 - Presentt"
-            }
+            
+              
 
         ],
 
