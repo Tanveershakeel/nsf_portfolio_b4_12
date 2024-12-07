@@ -45,6 +45,7 @@
     justify-content: start;
     align-items: start;
     background-color: rgb(50, 50, 50);
+    width:40%;
 
     gap: 0.6rem;
     padding: 1rem;

@@ -8,22 +8,22 @@ const About = () => {
         {
             icon: <FaWebflow />,
             title: 'Web Design',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, tempore.'
+            description: 'I craft clean, modern, and responsive designs that ensure an engaging user experience across all devices.'
         },
         {
             icon: <FaWebflow />,
             title: 'Development',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, tempore.'
+            description: ' I develop fast, interactive websites using React and modern web technologies.'
         },
         {
             icon: <FaWebflow />,
             title: 'Graphic Design',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, tempore.'
+            description: ' I create custom graphics and visual elements to enhance your brand and website aesthetics.'
         },
         {
             icon: <FaWebflow />,
             title: 'SEO',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, tempore.'
+            description: ' I implement SEO best practices to improve your website’s visibility and drive organic traffic.'
         },
 
     ]
@@ -35,11 +35,21 @@ const About = () => {
 
 
             <div className='about-section-paragraph'>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic illum in est modi ipsam nostrum numquam ad iusto perferendis, maiores labore. Alias odit consequuntur mollitia quidem ipsum? Magni, totam perspiciatis!</p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet dolorem accusamus vero quam ab error voluptates cum quo, id aspernatur sint porro vel quibusdam praesentium libero alias sed optio!
-                    Quibusdam quasi a vero dolorum dignissimos ducimus? Neque, reprehenderit unde labore at delectus, aspernatur repellat laudantium distinctio totam quibusdam sunt alias ab quis doloribus, corporis deserunt est hic. Sint, laborum?
-                </p>
+            <p>
+          Hi, I'm Tanveer, a Frontend Developer with a focus on building dynamic
+          and responsive web applications using React. I’m passionate about
+          crafting clean, user-friendly interfaces and staying up-to-date with
+          the latest frontend technologies
+        </p>
+        <p>
+          I’m a passionate and detail-oriented Frontend React Developer with 1
+          years of experience in building modern, scalable, and user-friendly
+          web applications. I thrive on creating seamless user experiences by
+          leveraging the latest web technologies and tools. With a solid
+          foundation in JavaScript, React, and frontend best practices, I’m
+          driven to solve complex problems while maintaining clean and
+          maintainable code.
+        </p>
             </div>
 
 
