@@ -1,10 +1,12 @@
-.data {
+.data,
+.resume-skills {
     /* background-color: red; */
     display: flex;
     flex-direction: column;
     margin: 1rem auto;
     width: 94%;
     padding: 1rem;
+    gap: 1rem;
 
 }
 
@@ -12,9 +14,121 @@
     color: whitesmoke;
 }
 
-.icon-title{
+.icon-title {
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 1rem;
+
+    position: relative;
+}
+
+
+.skill {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3rem;
+
+}
+
+.title-resume {
+    padding: 1rem 0;
+}
+
+
+.progress {
+    position: absolute;
+    height: 1rem;
+    background-color: rgb(214, 214, 214);
+    width: 60%;
+    height: 10px;
+    top: 2.5rem;
+    border-radius: 1rem;
+
+
+}
+
+.internal-progress {
+    position: absolute;
+    background-color: green;
+    height: 10px;
+    border-radius: 1rem;
+}
+
+
+.title-education {}
+
+.icon-title {
+    padding: 0 1.4rem;
+}
+
+
+.data-year-degree h3 {
+    color: rgb(224, 224, 44);
+}
+
+
+
+.data-year-degree {
+    width: 70%;
+}
+
+
+
+.resume-skills {}
+
+
+.line-bar, .line-barr {
+
+    position: absolute;
+    background-color: rgb(211, 211, 211);
+    height: 27rem;
+    width: 0.2rem;
+    top: 2rem;
+    border-radius: 20px;
+}
+
+
+
+
+.line-dot-1, .line-dott-1{
+    position: absolute;
+    top: 4.4rem;
+    background-color: rgb(255, 0, 0);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 0.9rem;
+}
+
+
+.line-dot-2, .line-dott-2{
+    position: absolute;
+    top: 16.2rem;
+    background-color: rgb(64, 255, 0);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 0.9rem;
+}
+
+.line-dott-2{
+    top: 14rem;
+}
+
+.line-dot-3, .line-dott-3{
+    position: absolute;
+    top: 26.6rem;
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 0.9rem;
+}
+
+.line-dott-3{
+    top: 22rem;   
 }
