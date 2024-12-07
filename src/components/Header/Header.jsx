@@ -4,17 +4,23 @@ import './Header.css';
 
 const Header = () => {
     const headerItems = [
-
         {
             id: 1,
+            title: "Home",
+            link: '/',
+        },
+
+        {
+            id: 2,
             title: 'Resume',
             link: '/resume',
         },
         {
-            id: 2,
+            id: 3,
             title: 'Contact',
             link: '/contact',
         },
+
     ];
 
     return (
