@@ -25,23 +25,18 @@ const Resume = () => {
 
         Experience: [
             {
-                company: "Toyota Pakistan",
-                position: "Accountant",
-                duration: "May 2022 - Present",
-                description: "Designed and implemented a machine learning algorithm to predict customer churn in a telecommunications company's network."
+                company: "i'm not in any company",
+                position: " Junior React Developer,  Independent Learning",
+                duration: "Nov 2024 - Present",
+                description: "Developed multiple personal projects including a todo app, weather app, and portfolio website to practice React and improve problem-solving skills."
             },
             {
-                company: "Facebook",
-                position: "Software Engineer",
-                duration: "July 2020 - May 2022",
-                description: "Built a recommendation system for Facebook's product catalog using TensorFlow and PyTorch."
+                company: "i'm not in any company",
+                position: "Web Designer (Freelancer / Personal Projects)",
+                duration: "dec-2024 - present",
+                description: "Created modern, mobile-friendly websites with CSS Grid and Flexbox to ensure consistency and flexibility across all screen sizes."
             },
-            {
-                company: "University of California, Berkeley",
-                position: "Undergraduate Research Assistant",
-                duration: "Fall 2019 - Spring 2020",
-                description: "Investigated the impact of climate change on the urban ecosystem using data analysis and modeling techniques."
-            }
+           
         ]
     }
 
@@ -126,7 +121,7 @@ const Resume = () => {
             {ResumeData.Experience.map((exp, index) => {
                 return (
                     <div key={index} className='data'>
-                        <h2>{exp.company}</h2>
+                        <h2>{exp.position}</h2>
                         <div className='data-year-degree'>
                             <h3>{exp.duration}</h3>
                             <p>{exp.description}</p>

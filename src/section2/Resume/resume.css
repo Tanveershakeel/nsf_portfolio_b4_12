@@ -85,7 +85,7 @@
 
     position: absolute;
     background-color: rgb(211, 211, 211);
-    height: 27rem;
+    height: 17rem;
     width: 0.2rem;
     top: 2rem;
     border-radius: 20px;
@@ -107,7 +107,7 @@
 
 .line-dot-2, .line-dott-2{
     position: absolute;
-    top: 16.2rem;
+    top: 13.2rem;
     background-color: rgb(64, 255, 0);
     width: 20px;
     height: 20px;
@@ -116,10 +116,10 @@
 }
 
 .line-dott-2{
-    top: 14rem;
+    top: 12rem;
 }
 
-.line-dot-3, .line-dott-3{
+/*.line-dot-3, .line-dott-3{
     position: absolute;
     top: 26.6rem;
     background-color: yellow;
@@ -129,6 +129,6 @@
     left: 0.9rem;
 }
 
-.line-dott-3{
+/*.line-dott-3{
     top: 22rem;   
 }
